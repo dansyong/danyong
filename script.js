@@ -1,4 +1,4 @@
-const header = document.querySelector("header");
+/*const header = document.querySelector("header");
 const footer = document.querySelector(".footer-section");
 
 const loadElement = (element, fileName) => {
@@ -13,7 +13,7 @@ const loadElement = (element, fileName) => {
 
 loadElement(header, 'header');
 loadElement(footer, 'footer');
-loadElement(document.querySelector(".wip"), 'wip_page');
+loadElement(document.querySelector(".wip"), 'wip_page');*/
 
 let backgrounds = document.querySelectorAll(".background");
 
