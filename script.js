@@ -2,7 +2,7 @@ const header = document.querySelector("header");
 const footer = document.querySelector(".footer-section");
 
 const loadElement = (element, fileName) => {
-  fetch(`/constants/${fileName}.html`)
+  fetch(`/common_layout/${fileName}.html`)
     .then(res => {
       return res.text();
     })
@@ -11,9 +11,9 @@ const loadElement = (element, fileName) => {
     })
 };
 
-loadElement(header, 'globalHeader');
-loadElement(footer, 'globalFooter');
-loadElement(document.querySelector(".wip"), 'notFound');
+loadElement(header, 'header');
+loadElement(footer, 'footer');
+loadElement(document.querySelector(".wip"), 'wip_page');
 
 let backgrounds = document.querySelectorAll(".background");
 
